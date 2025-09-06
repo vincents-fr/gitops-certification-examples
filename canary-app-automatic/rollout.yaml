@@ -29,11 +29,11 @@ spec:
           weightedTraefikServiceName: traefik-service 
       steps:
       - setWeight: 30
-      - pause: {duration: 2m}
+      - pause: {duration: 1m}
       - setWeight: 60
-      - pause: {duration: 2m}
+      - pause: {duration: 1m}
       - setWeight: 100
-      - pause: {duration: 2m}    
+      - pause: {duration: 1m}    
       analysis:
         templates:
         - templateName: simple-200-return
